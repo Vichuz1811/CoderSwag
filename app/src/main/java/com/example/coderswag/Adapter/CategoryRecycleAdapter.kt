@@ -19,8 +19,7 @@ class CategoryRecycleAdapter (val context: Context, val categories: List<Categor
         val categoryName = itemView.findViewById<TextView>(R.id.categoryName)
 
         fun bindCategory(category: Category, context: Context) {
-            val resourceId =
-                context.resources.getIdentifier(category.image, "drawable", context.packageName)
+            val resourceId = context.resources.getIdentifier(category.image, "drawable", context.packageName)
 
             categoryImage.setImageResource(resourceId)
             categoryName.text = category.title

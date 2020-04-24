@@ -32,3 +32,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+// putExtra(EXTRA_CATEGORY,category.title)
